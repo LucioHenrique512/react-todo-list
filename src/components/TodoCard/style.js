@@ -16,7 +16,7 @@ export const Buttons = styled.div`
     align-items: center;
     border: none;
     background: none;
-    font-size: 18px;
+    font-size: 25px;
   }
 `;
 

@@ -11,10 +11,6 @@ import { PersistGate } from "redux-persist/integration/react";
 
 function App() {
   const [spinspeed, setSpinSpeed] = useState(20);
-  
-
-  
-
 
   const handleClickEasterEgg = () => {
     if (spinspeed > 1) {

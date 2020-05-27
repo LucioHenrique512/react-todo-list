@@ -64,10 +64,7 @@ export const AppHeader = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  @media (prefers-reduced-motion: no-preference) {
-    img {
-      animation: spinLogo ${({ spinspeed }) => spinspeed}s infinite linear;
-    }
+  
   }
   img {
     display: flex;
@@ -77,6 +74,7 @@ export const AppHeader = styled.div`
     width: 35px;
     height: 35px;
     margin-right: 10px;
+    animation: spinLogo ${({ spinspeed }) => spinspeed}s infinite linear;
   }
   h1 {
     font-size: 30px;

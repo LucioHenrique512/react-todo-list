@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { Container, List, EmptyContainer } from "./style";
 import TodoCard from "../TodoCard";
 import { connect } from "react-redux";
