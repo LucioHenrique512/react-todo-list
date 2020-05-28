@@ -8,6 +8,7 @@ import TodoList from "./components/TodoList";
 import { Provider } from "react-redux";
 import { store, persistor } from "./store";
 import { PersistGate } from "redux-persist/integration/react";
+import AppInfo from "./components/AppInfo";
 
 function App() {
   const [spinspeed, setSpinSpeed] = useState(20);
@@ -27,6 +28,7 @@ function App() {
         <Provider store={store}>
           <PersistGate loading={null} persistor={persistor}>
             <Container>
+              <AppInfo/>
               <AppFrame>
                 <AppHeader spinspeed={spinspeed}>
                   <img
