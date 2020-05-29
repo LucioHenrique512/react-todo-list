@@ -17,4 +17,6 @@ To install the dependencies.
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Production build: https://simplereacttodo.netlify.app/
+
 ![Screenshot](https://github.com/LucioHenrique512/react-todo-list/blob/master/screenshots/screen01.PNG?raw=true "Screenshot")
